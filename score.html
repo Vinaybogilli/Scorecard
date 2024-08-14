@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Score card</title>
+    <link rel="stylesheet" href="score.css">
+</head>
+<body >
+    
+    <div id=BackGround>
+        <h1 style="color:white;">Cricket scorecard</h1>
+        <button  id="btn" onclick="cleardisplay()" style="background-color: red;">clear</button>
+        <input id="wickets" placeholder="W">
+        <input id="tar" placeholder="T">
+        <button  id="btn" onclick="Target()" style="background-color:orangered;">Target</button>
+        <div>
+           
+            <input id="display" placeholder="          welcome" readonly>
+            
+        </div>
+        
+        <div id="keys">
+            
+            <button id="btn1" onclick="appendtodisplayNB()" style="background-color: orange;color:black"> NB </button>
+            <button id="btn1" onclick="appendtodisplayWide()" style="background-color: orange;color:black"> Wide </button>
+            <button id="btn1" onclick="appendtodisplayplus1()">+1</button>
+            <button id="btn1" onclick="appendtodisplayplus2()">+2</button>
+            <button id="btn1" onclick="appendtodisplay0()">0</button>
+            <button id="btn1" onclick="appendtodisplay1()">1</button>
+            <button id="btn1" onclick="appendtodisplay2()">2</button>
+            <button id="btn1" onclick="appendtodisplay3()">3</button>
+            <button id="btn1" onclick="appendtodisplay4()">4</button>
+            <button id="btn1" onclick="appendtodisplay6()">6</button>
+            <button id="btn1" onclick="appendtodisplayprev()" style="background-color:orange;color: black;">Prev</button>
+            
+            <button id="btn1" onclick="appendtodisplaywicket()" style="background-color:red;color: black;">W</button>
+            
+        </div>
+
+        <div>
+            <input id="display2" readonly>
+        </div>
+            
+        
+    </div>
+    
+    <script src="score.js"></script>
+</body>
+</html>

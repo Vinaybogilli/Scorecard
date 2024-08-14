@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    background-color: black;
+    
+    
+    
+}
+
+#BackGround{
+        
+        background-color:black;
+        height:680px;
+        width: 400px;
+        background-image: url("https://i.pinimg.com/474x/38/7b/29/387b29cd030c482482544be30a0020f8.jpg");
+        background-repeat: no-repeat;
+        background-position: cover;
+
+        }
+
+
+
+h1{
+    
+    
+    color: white;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+
+
+#display{
+    height: 100px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 80px;
+
+    
+    background: inherit;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color:white;
+    background-color: black;
+    display: center;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+
+#wickets{
+    display:inline;
+    height:40px;
+    width:70px;
+    background-color: black;
+    
+    margin-left:20px;
+    
+    font-size: 30px;
+    font-style: italic;
+    color:white;
+    
+}
+
+#tar{
+    display: inline;
+    height: 40px;
+    width:70px;
+    margin-left: 10px;
+    font-size: 30px;
+    background-color: black;
+    margin-right: 10px;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#btn{
+    height: 40px;
+    width: 80px;
+    color:white;
+    margin-left: 10px;
+    display: inline;
+
+}
+
+
+
+#keys{
+    
+    display:center;
+    justify-content: center;
+    align-items: center;
+    margin-left:100px;
+    
+    
+}
+#btn1{
+    
+    height: 50px;
+    width: 80px;
+    background: inherit;
+    margin-top:10px;
+    margin-right:28px;
+    color:black;
+    background-color: cornsilk;
+    font-size: large;
+    font-weight: bold;
+    
+    
+}
+
+#display2{
+    height: 30px;
+    width: 300px;
+    margin-top:10px;
+    margin-left:50px;
+    background-color:black;
+    font-size: 30px;
+    color:white;
+    
+    display: center;
+    font-style: italic;
+    overflow: visible;
+    
+}
+
+
+
+
